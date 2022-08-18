@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body, input, textarea, button {
+    font-family: sans-serif;
+}
+
+body {
+    background: url('./images/background.png');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    max-width: 1388px;
+    margin: auto;
+    
+    header {
+        padding: 1rem 2rem;
+      h1 {
+        font-size: 4rem;
+        font-weight: 600;
+      }
+    }
+    h2 {
+        border: 1px solid white;
+        width: 70%;
+        padding: 1rem 0;
+        border-radius: .6rem;
+        margin: auto;
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    .planet-list {
+        margin: 3rem 0;
+        display: flex;
+        align-items: center;
+        padding: 1rem 2rem;
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img {
+                width: 60%;
+                margin-bottom: 1rem;
+            }
+            .Júpiter {
+                width: 100%;
+            }
+            .Saturno {
+                width: 120%;
+            }
+            .Urano {
+                width: 60%;
+            }
+            .Netuno {
+                width: 70%;
+            }
+            .Marte {
+                width: 50%;
+            }
+            .Mercúrio {
+                width: 35%;
+            }
+            .Vênus {
+                width: 50%;
+            }
+        }
+    }
+}

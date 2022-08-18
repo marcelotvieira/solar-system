@@ -1,3 +1,84 @@
-.App {
+@charset "UTF-8" ;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, input, textarea, button {
+  font-family: sans-serif;
+}
+
+body {
+  background: url('./images/background.png');
+  background-size: cover;
+  color: white;
+  margin: auto;
+  max-width: 1388px;
   text-align: center;
+}
+
+body header {
+  padding: 1rem 2rem;
+}
+
+body header h1 {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+body h2 {
+  border: 1px solid white;
+  border-radius: 0.6rem;
+  font-size: 2rem;
+  font-weight: 500;
+  margin: auto;
+  padding: 1rem 0;
+  width: 70%;
+}
+
+body .planet-list {
+  align-items: center;
+  display: flex;
+  margin: 3rem 0;
+  padding: 1rem 2rem;
+}
+
+body .planet-list div {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+body .planet-list div img {
+  margin-bottom: 1rem;
+  width: 60%;
+}
+
+body .planet-list div .Júpiter {
+  width: 100%;
+}
+
+body .planet-list div .Saturno {
+  width: 120%;
+}
+
+body .planet-list div .Urano {
+  width: 60%;
+}
+
+body .planet-list div .Netuno {
+  width: 70%;
+}
+
+body .planet-list div .Marte {
+  width: 50%;
+}
+
+body .planet-list div .Mercúrio {
+  width: 35%;
+}
+
+body .planet-list div .Vênus {
+  width: 50%;
 }
